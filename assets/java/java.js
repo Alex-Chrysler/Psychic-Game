@@ -98,10 +98,11 @@ if (keyPressed == random) {
 
 
 else {
-    updateGuesses();
+    
     
     guessesCount.guessed();
     guessesCount.gameOver();
+    updateGuesses();
     updateLosses();
     
 }
